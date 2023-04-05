@@ -21,7 +21,7 @@ public class Banco {
 
         c1.setNumero(1);
         c1.setCliente(cliente1);
-        c1.setSaldo(50.00);
+        //c1.setSaldo(50.00);
         c1.deposita(100.0);
 
         ContaCorrente c2 = new ContaCorrente();
@@ -30,7 +30,7 @@ public class Banco {
         c2.setNumero(2);
         c2.setCliente(cliente2);
 
-        c2.setSaldo(100.0);
+        //c2.setSaldo(100.0);
         c2.deposita(200.00);
 
 

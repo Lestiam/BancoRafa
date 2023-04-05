@@ -1,7 +1,7 @@
 package aplicacao.entidade;
 
 public class ContaCorrente {
-    private Double saldo;
+    private double saldo;
     private Integer numero;
     private Cliente cliente;
 
@@ -12,11 +12,11 @@ public class ContaCorrente {
         this.saldo += valor;
     }
 
-    public Double getSaldo() {
+    public double getSaldo() {
         return saldo;
     }
 
-    public void setSaldo(Double saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
